@@ -6,6 +6,7 @@ import HowDoesItWork from './components/HowDoesItWork';
 import OurWorks from './components/OurWorks';
 import ThirdComp from './components/ThirdComp';
 import Collapsetab from './components/Collapsetab';
+import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
       <OurWorks/>
       <ContactUs/>
       <Collapsetab/>
+      <Footer/>
     </div>
   );
 }
