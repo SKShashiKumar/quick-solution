@@ -1,0 +1,56 @@
+@import '../BasicPartials';
+
+.HowDoesItWork{
+    padding:3%;
+    background-color: rgb(242,242,242);
+    .HeadingRow{
+        padding: 1% 10%;   
+
+    }
+    .SubHeadingRow{
+        padding: 1% 10%;
+    }
+    .Men{
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+    @media screen and (max-width:991px) {
+        .Men{
+            img{
+                height: 250px !important;
+                object-fit: cover;
+            }
+        }
+    }
+    @media screen and (max-width:576px) {
+        .HeadingRow{
+            h1{
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
+
+
+.HowDoesCards{
+    padding: 2%;
+    text-align: center;
+    i{
+        padding-top: 5%;
+        padding-bottom: 5%;
+        font-size: 2.5rem;
+    }
+    h2{
+        padding-top: 5%;
+        padding-bottom: 5%;
+        font-size: 1.3rem;
+    }
+    p{
+        text-align: justify;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        font-size: 1rem;
+    }
+}

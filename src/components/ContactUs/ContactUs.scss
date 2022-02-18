@@ -1,0 +1,14 @@
+@import '../BasicPartials';
+
+.ContactUs{
+    padding: 5% 10%;
+    
+    .fa-quote-left{
+        font-size: 10rem;
+    }
+
+    p{
+        text-align: justify;
+        font-size: 1.1rem;
+    }
+}

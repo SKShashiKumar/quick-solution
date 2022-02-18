@@ -1,0 +1,55 @@
+@import '../../BasicPartials';
+.FAQ{
+    padding:5% 3% 3% 3%;
+    text-align: center;
+    .Collapse{
+        padding: 0% 10%;
+        .contents{
+            cursor: pointer;
+            background-color: white;
+            padding: 10px 20px 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            p{
+                font-family: $fontRobo;
+                font-size: 1rem;
+                font-weight: 600;
+                color: black;
+            }
+            .fa-plus{
+                color: rgb(134, 134, 134);
+            }
+            &:hover, &:active{
+                background-color: rgb(219, 214, 214);
+                color: rgb(61, 61, 61);
+                p{
+                    color: rgb(61, 61, 61);
+                }
+            }
+
+        }
+        .FirstAnswer{
+            p{
+                font-family: $fontOpen;
+                font-size: 1rem;
+                text-align: left;
+                padding: 10px;
+                // font-weight: 600;
+                // color: slategrey;
+            }
+        }
+
+        @media screen and (max-width:576px) {
+            .FirstAnswer{
+                p{
+                    font-size: 0.8rem !important;
+                }
+            }
+            p{
+                font-size: 0.8rem !important;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,39 @@
+@import '../BasicPartials';
+.Collapsetab{
+    background-color: rgb(228, 230, 231);
+    padding: 5% 0%;
+    .mainHeading{
+        padding-bottom: 3%;
+    }
+    .PJ{
+        img{
+            height: 400px;
+        width: 300px;
+        }
+    }
+    .MainFAQ{
+        padding: 0%;
+        margin: 0%;
+        background-color: rgb(255, 255, 255);
+    }
+    .ContactUsBtn{
+        button{
+            background-color: $colorPink;
+            color: rgb(7, 5, 5);
+            text-transform: uppercase;
+            font-family: $fontRale;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            // font-weight: 600;
+        }
+    }
+    .RightContents{
+        .PJ{
+            padding: 2%;
+        }   
+        .Descr{
+            padding: 2%;
+        }
+    }
+}

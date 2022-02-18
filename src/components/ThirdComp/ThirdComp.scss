@@ -1,0 +1,36 @@
+@import '../BasicPartials';
+
+.ThirdComp{
+    padding: 5%;
+    .ListContents{
+        padding: 4% 3%;
+        background-color: $colorLav;
+        ul{
+            li{
+                font-size: 1.3rem;
+                line-height: 2.8;
+                font-family: $fontOpen;
+                font-weight: 700;
+            }
+            @media screen and (max-width:576px) {
+                li{
+                    font-size: 1.1rem !important;
+                    line-height: 2 !important;
+                    font-weight: 600 !important;
+                }
+            }
+        }
+    }
+
+    .ContentRow{
+        padding: 5% 5%;
+        p{
+            font-size: 1rem;
+            font-family: $fontOpen;
+            text-align: justify;
+            &:first-child{
+                padding-top: 5%;
+            }
+        }
+    }
+}

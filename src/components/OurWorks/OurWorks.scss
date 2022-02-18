@@ -1,0 +1,84 @@
+@import '../BasicPartials';
+
+.OurWorks{
+    padding: 3% 2%;
+    .ContactUsBtn{
+        padding-top: 2%;
+        padding-bottom: 2%;
+        button{
+            background-color: $colorPink;
+            color: white;
+            text-transform: uppercase;
+            font-family: $fontRale;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            font-weight: 600;
+        }
+    }
+    .subHeading{
+        padding-top: 1%;
+        h6{
+            font-family: $fontRobo;
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+    }
+    .Waves{
+        padding-top: 1%;
+        img{
+            height: 30px;
+            width: 100px;
+        }
+    }
+    .mainHeading{
+        padding-top: 1%;
+        h2{
+            font-size: 2.5rem;
+        }
+    }
+    .ImagesRow{
+        margin: 0%;
+        padding: 3% 15%;
+        img{
+            height: 250px;
+            width: 250px;
+        }
+
+        @media screen and (min-width:1300px) {
+            img{
+                height: 300px;
+                width: 300px;
+            }
+        }
+        @media screen and (max-width:1199px) {
+            img{
+                height: 200px;
+                width: 200px;
+            }
+        }
+
+        @media screen and (max-width:991px) {
+            img{
+                height: 250px;
+                width: 250px;
+            }
+        }
+
+        @media screen and (max-width:767px) {
+            text-align: center;
+            img{
+                height: 300px;
+                width: 300px;
+            }
+        }
+
+        @media screen and (max-width:576px) {
+            text-align: center;
+            img{
+                height: 250px;
+                width: 250px;
+            }
+        }
+    }
+}
